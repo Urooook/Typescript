@@ -71,4 +71,5 @@ interface Form {
     * Cоздайте переменную `unsafeCircle: Circle` и присвойте ей значение `shape as any as Circle`.
     * Поэкспериментируйте с `unsafeCircle`: попытайтесь получить доступ к свойствам `Circle`.
     * Объясните, почему использование двойного каста через `any` является плохой практикой.
+
 [Решение](https://github.com/Urooook/Typescript/blob/main/HW5/cast.ts)
