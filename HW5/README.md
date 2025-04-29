@@ -10,3 +10,23 @@ const fake = { name: "Dog", bark: () => "Woof!" };
 console.log(processCharacter(hero)); // "Hero moves: Runs forward!"
 console.log(processCharacter(fake)); // "Not a game character!"
 ```
+[Ссылка на файл](https://github.com/Urooook/Typescript/tree/main/HW5/)
+***
+
+#### Отображения объектов
+
+Сойздайте тип RenamedForm на основе заданного интерфейса:
+
+```typescript
+interface Form { 
+  readonly name: string;
+  readonly email: string; 
+  readonly age: number;
+}
+```
+
+Требования:
+
+* Переименовывает свойства интерфейса Form в новые имена с префиксом form (например, name → formName).
+* Ограничивает значения свойств, чтобы они были либо строками, либо undefined, используя extends.
+* Уберите модификатор `readonly`.
