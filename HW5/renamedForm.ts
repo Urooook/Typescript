@@ -5,5 +5,11 @@ interface Form {
 }
 
 type RenamedForm = {
-    -readonly [K in keyof Form as `form${Capitalize<K>}`]: Form[K] extends string ? string : undefined;
+    -readonly [K in keyof Form as `form${Capitalize<K>}`]: Form[K] extends string ? string : string | undefined;
+}
+
+const form: RenamedForm = {
+    formAge: undefined,
+    formName: 'Bob',
+    formEmail: 'Bla'
 }
