@@ -35,4 +35,4 @@
 
 ***
 
-[Решение](https://github.com/Urooook/Typescript/blob/main/HW3/index.ts)
+[Решение](https://github.com/Urooook/Typescript/blob/main/HW2/index.ts)
